@@ -38,7 +38,7 @@ body {
 .banner {
     background-color: var(--primary-blue);
     /* 使用叠加层确保文字清晰，同时显示 banner.jpg */
-    background-image: linear-gradient(rgba(0, 59, 92, 0.75), rgba(0, 59, 92, 0.75)), url('../pic/background.png');
+    background-image: linear-gradient(rgba(0, 59, 92, 0.75), rgba(0, 59, 92, 0.75)), url('../doc/background.png');
     background-size: cover;
     background-position: center;
     color: white;
