@@ -1,7 +1,3 @@
-这是一份面向 **INCON Group** 项目协作者的 `README.md` 指南。它详细说明了如何向网站的四个研究子页面添加新文章，并确保资源文件（PDF 和图片）被正确引用。
-
----
-
 # INCON Group 网站内容更新指南 (Collaborator Guide)
 
 欢迎加入 INCON Group 的项目维护！本指南将引导你如何向网站的四个子页面（Neuroimaging, Tissue Imaging, Imaging Genetics, Clinical Translation）添加新的论文或研究成果。
@@ -88,7 +84,5 @@ auto.bat
 ```
 
 
-
----
-
 **核心原因**：采用这种结构化的添加方式，可以确保新内容能够自动适配移动端布局，并保持学术站点严谨、统一的视觉风格。
+
