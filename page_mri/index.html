@@ -85,6 +85,12 @@
             color: #b2132e;
         }
 
+        /*自己加了一段*/
+        .paper-journal-muted {
+            color: #999;
+            font-style: italic;
+        }
+
         @media (max-width: 768px) {
             .paper-item {
                 flex-direction: column;
@@ -129,7 +135,7 @@
             <h2>Published Works</h2>
             <ul class="paper-list"></ul>
                 <li class="paper-item">
-                    <img src="doc/[子页面关键词]/p/你的图片名.png" alt="Preview" class="paper-preview-img">
+                    <img src="" alt="Preview" class="paper-preview-img">
                     
                     <div class="paper-content">
                         <span class="paper-title">这里输入你的论文标题</span>
@@ -147,11 +153,36 @@
 
 
                 <li class="paper-item">
+                    <img src="doc/mri/p/jianwei_image.png" alt="Preview" class="paper-preview-img">
+                    
+                    <div class="paper-content">
+                        <span class="paper-title">Multiscale Causal Geometric Deep Learning for Modeling Brain Structure</span>
+                        <span class="paper-journal">arXiv>arxiv>
+                        <!--<span class="paper-journal">发表/投稿期刊（预印本写Preprint）</span>-->
+                        <span class="paper-author">Jianwei Chen</span>
+                        
+                        <p class="paper-desc">
+                            Devised a geometric deep learning model to introduce Laplacian harmonics and spectral graph theory to optimize multimodal alignment and multiscale integration.
+                            Graph Variational Autoencoder architectures is used in disentangled learning to distinguish shared features from latent space and scale-specific features
+                            Modelling eigenvectors from different modalities data in the Laplacian spectral domain with multiscale interpretation
+                            causal and non-causal factors are distinguished by a mutual information-informed bilevel regularizer
+                        </p>
+                        
+                        <div class="paper-links">
+                            <a href="doc/mri/p/jianwei_archive.pdf" target="_blank">Paper</a>
+                            <!--<a href="doc/[子页面关键词]/p/你的论文.pdf" target="_blank">Paper</a> |
+                            <a href="https://github.com/..." target="_blank">Code</a>-->
+                        </div>
+                    </div>
+                </li>
+
+                <li class="paper-item">
                     <img src="doc/[子页面关键词]/p/你的图片名.png" alt="Preview" class="paper-preview-img">
                     
                     <div class="paper-content">
                         <span class="paper-title">Multiscale Causal Geometric Deep Learning for Modeling Brain Structure</span>
-                        <span class="paper-journal">发表/投稿期刊（预印本写Preprint）</span>
+                        <span class="paper-journal">arXiv>arxiv>
+                        <!--<span class="paper-journal">发表/投稿期刊（预印本写Preprint）</span>-->
                         <span class="paper-author">Jianwei Chen</span>
                         
                         <p class="paper-desc">
